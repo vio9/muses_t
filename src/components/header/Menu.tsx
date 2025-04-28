@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom"
 
-function Menu(){
-    <nav>
-        <Link to=""></Link>
-    </nav>   
-
+const Menu : React.FC = () => {
+    return(
+        <nav>
+        <Link to="/">Home</Link>
+        <Link to="/about">A propos</Link>
+        <Link to="/contact">Contact</Link> 
+      </nav>
+    )
 }
 
 export default Menu

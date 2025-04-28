@@ -1,0 +1,9 @@
+@use '../../style/variables' as vars;
+
+.link-menu{
+    margin: 0 1em;
+    text-decoration: none;
+    color: vars.$primary-color;
+}
+
+
