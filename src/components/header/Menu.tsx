@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom"
+import "./menu.scss"
 
 const Menu : React.FC = () => {
     return(
         <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">A propos</Link>
-        <Link to="/contact">Contact</Link> 
+        <Link className="link-menu" to="/">Home</Link>
+        <Link className="link-menu" to="/about">A propos</Link>
+        <Link className="link-menu" to="/contact">Contact</Link> 
       </nav>
     )
 }
