@@ -1,3 +1,5 @@
+@use '../../style/variables' as vars;
+
 .wrapper{
     background: linear-gradient(rgba(232, 59, 117, 0.7), rgba(232, 59, 117, 0.7));
     background-size: cover;
@@ -5,4 +7,12 @@
     background-repeat: no-repeat;
     padding:1em 0;
    
+}
+
+.title-home{
+    display: flex;
+    width:80%;
+    color: vars.$title-color;
+    margin:auto;
+    padding:10px;
 }

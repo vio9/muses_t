@@ -1,9 +1,9 @@
 import { TextBlockProps } from "../../types/components";
-import './textblock.module.scss';
+import './textblock.scss';
 
 const TextBlock : React.FC<TextBlockProps> = ({title, content}) => {
     return(
-        <div>
+        <div className="textblock-container">
         <h2>{title}</h2>
         <p>{content}</p>
         </div>

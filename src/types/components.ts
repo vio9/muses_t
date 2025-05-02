@@ -9,3 +9,11 @@ export type TextBlockProps = {
     icon?:  string;    
     target?: string; 
   };
+
+ export type VideoProps = {
+    title: string;
+    src: string;
+    width?: string;
+    height?: string;
+  };
+  

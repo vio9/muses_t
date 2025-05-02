@@ -1,0 +1,12 @@
+@use '../../style/variables' as vars;
+
+.footer-wrapper{
+ background-color: vars.$background-color;   
+ display: flex;
+  justify-content: center;
+  padding: 1em 0;
+}
+
+.footer-p{
+    color: vars.$text-color;
+}
